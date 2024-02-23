@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipnum</title>
+</head>
+<body>
+    <script>
+       function rotete(array) {
+        if(array.length < 2){
+            return array;
+        }
+         firstelement= array.shift();
+        array.push(firstelement);
+        return array;
+       }
+       originalarry=[1,2,3,4];
+       result=rotete(originalarry);
+       document.write(result);
+    </script>
+    
+</body>
+</html>

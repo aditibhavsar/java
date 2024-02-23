@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        function returnDay(number)
+        {
+            arr=["Mon","Tue","Wed","Thu","Fri","Sat","sun"]
+            if(number >=1 && number <=7){
+                return (arr[number-1]);
+            }
+            else
+            {
+                return "null"
+            }
+        }
+        number=+prompt("Enter the number");
+        output=returnDay(number);
+        document.write(output);
+    </script>
+</body>
+</html>

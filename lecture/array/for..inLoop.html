@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For...inLoop</title>
+</head>
+
+<body>
+    <script>
+        // for..in loop
+        // use to check index
+
+        Studentname=["aditi","jyoti","roshani"];
+
+         student={
+            'name':'aditi',
+             RollNo:2,
+            "address":'nashik',
+            'className':'Treemiti'
+        }
+        for (let i in students) {
+            console.log(`Roll No ${Number(i) + 1}: ${students[i]}`)
+        };
+// ------------------------------------------------------------------------------------------------
+        // for...of loop
+        // use to check key 
+
+        Studentname = ["aditi", "jyoti", "roshani"];
+ 
+
+        for(Studentname of Studentname){
+      
+            console.log(Studentname);
+        };
+// ----------------------------------------------------------------------------------------------------
+        // break in array
+        // for (i = 0; i <= 7; i++) {
+        //     if (i == 2) {
+        //         break;
+        //     }
+        //     console.log(i);
+
+        // }
+// ----------------------------------------------------------------------------------------------------
+        // continue
+        // for (i = 0; i <= 7; i++) {
+        //     if (i == 2) {
+        //         continue;
+        //     }
+        //     console.log(i);
+
+        // }
+
+    </script>
+</body>
+
+</html>
